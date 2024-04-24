@@ -1,18 +1,12 @@
-[![Documentation](https://img.shields.io/badge/documentation-read-green)](https://docs.deepfence.io/flowmeter)
-[![GitHub license](https://img.shields.io/github/license/deepfence/FlowMeter)](https://github.com/deepfence/FlowMeter/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/deepfence/FlowMeter)](https://github.com/deepfence/FlowMeter/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/deepfence/FlowMeter)](https://github.com/deepfence/FlowMeter/issues)
-[![Slack](https://img.shields.io/badge/slack-@deepfence-blue.svg?logo=slack)](https://join.slack.com/t/deepfence-community/shared_invite/zt-podmzle9-5X~qYx8wMaLt9bGWwkSdgQ)
-
 # FlowMeter
-FlowMeter is an experimental utility built for analysing and classifing packets by looking at packet headers. 
+FlowMeter is an experimental utility built for analyzing and classifying packets by looking at packet headers. 
 
 ## Primary design goals:
 
 FlowMeter aims to:
 
  - **Classify packets and flows as benign or malicious with high true positives (TP) and low false positives (FP)**. 
- - **Use the labeled data to reduce amount of traffic requiring deeper analysis**. 
+ - **Use the labeled data to reduce the amount of traffic requiring deeper analysis**. 
 
 Additionally, Deepfence FlowMeter also categorizes packets into flows and shows a rich ensemble of flow data and statistics.
 
@@ -36,7 +30,7 @@ For full instructions, refer to the [FlowMeter Documentation](https://docs.deepf
 
 ## Who uses FlowMeter?
 
- * We use FlowMeter internally to quickly analyse and label packets. It forms one part of a project to build a fast pre-filter for packets before we conduct deeper layer-7 analysis in [Deepfence ThreatMapper](https://deepfence.io/threatmapper/).
+ * We use FlowMeter internally to quickly analyze and label packets. It forms one part of a project to build a fast pre-filter for packets before we conduct deeper layer-7 analysis in [Deepfence ThreatMapper](https://deepfence.io/threatmapper/).
 
 ## Get in touch
 
